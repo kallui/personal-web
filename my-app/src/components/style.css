@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Montserrat:wght@500&display=swap');
+
+.nav-bar {
+  background-color: darkslateblue;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+h1 {
+  font-size: 30px;
+  color: antiquewhite;
+  cursor: default;
+}
+
+.linkGroup {
+  list-style: none;
+}
+
+.linkGroup li {
+  display: inline-block;
+  margin: 0 20px;
+
+}
+
+.linkGroup li a {
+  color: antiquewhite;
+  transition: all 0.3s ease 0s;
+  border-width: 10px;
+  border-color: black;
+}
+
+.linkGroup li a:hover {
+  color: rgb(207, 180, 145);
+}

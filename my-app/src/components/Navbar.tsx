@@ -1,20 +1,24 @@
 import * as React from "react";
-
+import './style.css'
 
 export class NavBar extends React.Component {
 
   render() {
     return (
       <>
-        <h1>Nicholas Januar</h1>
+        
 
         <nav className="nav-bar">
-          <ul>
+          <h1>Nicholas Januar</h1> 
+          <ul className='linkGroup'>
             <li>
               <a href='/'>Home</a>
             </li>
             <li>
               <a href='/projects'>Projects</a>
+            </li>
+            <li>
+              <a href='/contact'>Contact</a>
             </li>
           </ul>
         </nav>

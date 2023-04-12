@@ -6,7 +6,12 @@ export class Home extends React.Component {
       return (
         <>
           <NavBar />
-          <h2>Home</h2>
+          <div style={{
+            height: '100%',
+            backgroundColor: 'black'
+          }}>
+            <h2>Home</h2>
+          </div>
         </>
       );
     }
